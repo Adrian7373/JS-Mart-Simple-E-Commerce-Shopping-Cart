@@ -1,0 +1,119 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.itemCard {
+    border: 1px solid rgb(0, 0, 0);
+    width: 300px;
+    height: 475px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.productsHolder {
+    display: flex;
+    flex-wrap: wrap;
+    width: 82.6%;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px 10px rgba(0, 0, 0, 0.3);
+    background-color: white;
+}
+
+.productImage {
+    width: 298px;
+    height: 384px;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.titlePrice {
+    height: 72px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.itemTitle {
+    height: 44px;
+    overflow: hidden;
+    margin: 0px;
+}
+
+.itemPrice {
+    margin: 0px;
+}
+
+
+.mainBody {
+    display: flex;
+    justify-content: space-around;
+}
+
+.cartCard {
+    background-color: white;
+    width: 16%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body {
+    background-color: rgb(220, 203, 203);
+}
+
+.checkout-btn {
+    background-color: greenyellow;
+    height: 50px;
+    width: 150px;
+    font-size: 25px;
+    border-radius: 10px;
+    border: 1px solid;
+    cursor: pointer;
+}
+
+hr {
+    width: 280px;
+}
+
+.cartItem {
+    width: 270px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+}
+
+.addToCart-btn {
+    cursor: pointer;
+    height: 30px;
+    background-color: orange;
+    font-size: 16px;
+    border-radius: 0px 0px 10px 10px;
+    border-style: none;
+}
+
+.addToCart-btn:hover {
+    background-color: rgb(197, 128, 0);
+    color: white;
+}
+
+.minusButton {
+    height: 30px;
+    width: 40px;
+}
+
+.plusButton {
+    height: 30px;
+    width: 40px;
+}
+
+.cartItem p {
+    width: 173px;
+}
